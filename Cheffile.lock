@@ -23,21 +23,21 @@ GIT
       java (>= 1.8.0)
 
 GIT
-  remote: https://github.com/Lytro/chef_ruby
-  ref: master
-  sha: 7da6c12f7ad643445920f7f88c0469362eef4d29
-  specs:
-    chef_ruby (2.2.0)
-      apt (>= 0.0.0)
-      build-essential (>= 0.0.0)
-
-GIT
   remote: https://github.com/ebensing/chef-awscli
   ref: master
   sha: d04edcd6bfe578d5f3e60c9041cf2baf12f9facb
   specs:
     awscli (0.1.0)
       python (>= 0.0.0)
+
+GIT
+  remote: https://github.com/flaccid/chef_ruby
+  ref: master
+  sha: 535cac0be231709e62ca9c09f9fad2e271891734
+  specs:
+    chef_ruby (2.2.1)
+      apt (>= 0.0.0)
+      build-essential (>= 0.0.0)
 
 GIT
   remote: https://github.com/flaccid/cookbooks

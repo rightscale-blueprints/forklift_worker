@@ -27,7 +27,7 @@
   "groupings": {
   },
   "recipes": {
-    "default": "Installs Ruby 1.9 from source."
+    "chef_ruby::default": "Installs Ruby 1.9 from source."
   },
-  "version": "2.2.0"
+  "version": "2.2.1"
 }

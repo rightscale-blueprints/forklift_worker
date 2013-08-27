@@ -11,9 +11,13 @@ cookbook 'aws_developer_tools',
   :git => 'https://github.com/Lytro/aws_developer_tools',
   :ref => 'master'
 
+# use flaccid's fork due to pending pull request for fix, https://github.com/Lytro/chef_ruby/pull/5
 cookbook 'chef_ruby',
-  :git => 'https://github.com/Lytro/chef_ruby',
+  :git => 'https://github.com/flaccid/chef_ruby',
   :ref => 'master'
+#cookbook 'chef_ruby',
+#  :git => 'https://github.com/Lytro/chef_ruby',
+#  :ref => 'master'
 
 cookbook 'system',
   :git => 'https://github.com/flaccid/cookbooks',
