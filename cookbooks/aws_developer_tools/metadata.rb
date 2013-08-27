@@ -9,6 +9,6 @@ version          '3.1.2'
 depends 'java', '>= 1.8.0'
 depends 'chef_ruby', '>= 2.2.0'
 
-recipe 'aws_developer_tools', 'runs all of the recipes in this cookbook'
+recipe 'aws_developer_tools::default', 'runs all of the recipes in this cookbook'
 
 replaces 'chef_ec2_cli_tools'

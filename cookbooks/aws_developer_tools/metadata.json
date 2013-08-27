@@ -27,7 +27,7 @@
   "groupings": {
   },
   "recipes": {
-    "aws_developer_tools": "runs all of the recipes in this cookbook"
+    "aws_developer_tools::default": "runs all of the recipes in this cookbook"
   },
   "version": "3.1.2"
 }
