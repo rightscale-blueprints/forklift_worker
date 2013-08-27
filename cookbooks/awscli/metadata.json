@@ -1,0 +1,30 @@
+{
+  "name": "awscli",
+  "description": "Installs/Configures awscli",
+  "long_description": "awscli Cookbook\n===============\n\nThis cookbook will install the aws command line tools found http://aws.amazon.com/cli/ (note: also makes sure python is installed)\n\nRequirements\n------------\n\npython - https://github.com/opscode-cookbooks/python\n\nAttributes\n----------\nNone - this is the worlds simpliest cookbook\n\nUsage\n-----\n#### awscli::default\n\nLiterally, just \"recipe[awscli]\" in your run list\n\nLicense and Authors\n-------------------\nAuthors: EJ Bensing\n\nFeel free to use this however you want.\n",
+  "maintainer": "EJ Bensing",
+  "maintainer_email": "ebensing@rm-dash-r.com",
+  "license": "All rights reserved",
+  "platforms": {
+  },
+  "dependencies": {
+    "python": ">= 0.0.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.1.0"
+}

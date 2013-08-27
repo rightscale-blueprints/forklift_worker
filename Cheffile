@@ -1,0 +1,25 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'awscli',
+  :git => 'https://github.com/ebensing/chef-awscli',
+  :ref => 'master'
+
+cookbook 'aws_developer_tools',
+  :git => 'https://github.com/Lytro/aws_developer_tools',
+  :ref => 'master'
+
+cookbook 'chef_ruby',
+  :git => 'https://github.com/Lytro/chef_ruby',
+  :ref => 'master'
+
+cookbook 'system',
+  :git => 'https://github.com/flaccid/cookbooks',
+  :path => 'cookbooks/system',
+  :ref => 'master'
+
+cookbook 'apt',
+  :git => 'https://github.com/opscode-cookbooks/apt',
+  :ref => '1.10.0'

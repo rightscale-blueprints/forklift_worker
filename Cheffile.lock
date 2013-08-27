@@ -1,0 +1,64 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    build-essential (1.4.0)
+    chef_handler (1.1.4)
+    cron (1.2.4)
+    java (1.12.0)
+      windows (>= 0.0.0)
+    python (1.3.6)
+      build-essential (>= 0.0.0)
+      yum (>= 0.0.0)
+    windows (1.10.0)
+      chef_handler (>= 0.0.0)
+    yum (2.3.0)
+
+GIT
+  remote: https://github.com/Lytro/aws_developer_tools
+  ref: master
+  sha: 6fd46657355e6ccd44711d65dd5df5ac1ce92542
+  specs:
+    aws_developer_tools (3.1.2)
+      chef_ruby (>= 2.2.0)
+      java (>= 1.8.0)
+
+GIT
+  remote: https://github.com/Lytro/chef_ruby
+  ref: master
+  sha: 7da6c12f7ad643445920f7f88c0469362eef4d29
+  specs:
+    chef_ruby (2.2.0)
+      apt (>= 0.0.0)
+      build-essential (>= 0.0.0)
+
+GIT
+  remote: https://github.com/ebensing/chef-awscli
+  ref: master
+  sha: d04edcd6bfe578d5f3e60c9041cf2baf12f9facb
+  specs:
+    awscli (0.1.0)
+      python (>= 0.0.0)
+
+GIT
+  remote: https://github.com/flaccid/cookbooks
+  path: cookbooks/system
+  ref: master
+  sha: 28bcd8b2633f3687f7c1c53d56f65d03594081e9
+  specs:
+    system (0.0.1)
+      cron (>= 0.0.0)
+
+GIT
+  remote: https://github.com/opscode-cookbooks/apt
+  ref: 1.10.0
+  sha: d4b5912cd8f3e73a417b3b176fb85e37b04993fa
+  specs:
+    apt (1.10.0)
+
+DEPENDENCIES
+  apt (>= 0)
+  aws_developer_tools (>= 0)
+  awscli (>= 0)
+  chef_ruby (>= 0)
+  system (>= 0)
+

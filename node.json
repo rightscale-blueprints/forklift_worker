@@ -1,0 +1,3 @@
+{
+  "run_list": [ "system", "awscli", "aws_developer_tools::api", "aws_developer_tools::ami" ]
+}
