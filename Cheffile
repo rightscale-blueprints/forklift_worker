@@ -7,11 +7,15 @@ cookbook 'awscli',
   :git => 'https://github.com/ebensing/chef-awscli',
   :ref => 'master'
 
+# use flaccid's fork due to pending pull request for fix, https://github.com/Lytro/aws_developer_tools/pull/8
 cookbook 'aws_developer_tools',
-  :git => 'https://github.com/Lytro/aws_developer_tools',
+  :git => 'https://github.com/flaccid/aws_developer_tools',
   :ref => 'master'
+#cookbook 'aws_developer_tools',
+#  :git => 'https://github.com/Lytro/aws_developer_tools',
+#  :ref => 'master'
 
-# use flaccid's fork due to pending pull request for fix, https://github.com/Lytro/chef_ruby/pull/5
+# use flaccid's fork due to pending pull request for fix, https://github.com/Lytro/chef_ruby/pull/6
 cookbook 'chef_ruby',
   :git => 'https://github.com/flaccid/chef_ruby',
   :ref => 'master'

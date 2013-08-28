@@ -14,21 +14,21 @@ SITE
     yum (2.3.0)
 
 GIT
-  remote: https://github.com/Lytro/aws_developer_tools
-  ref: master
-  sha: 6fd46657355e6ccd44711d65dd5df5ac1ce92542
-  specs:
-    aws_developer_tools (3.1.2)
-      chef_ruby (>= 2.2.0)
-      java (>= 1.8.0)
-
-GIT
   remote: https://github.com/ebensing/chef-awscli
   ref: master
   sha: d04edcd6bfe578d5f3e60c9041cf2baf12f9facb
   specs:
     awscli (0.1.0)
       python (>= 0.0.0)
+
+GIT
+  remote: https://github.com/flaccid/aws_developer_tools
+  ref: master
+  sha: beb89fab16d297084583c4aceece445b76b56950
+  specs:
+    aws_developer_tools (3.1.2)
+      chef_ruby (>= 2.2.0)
+      java (>= 1.8.0)
 
 GIT
   remote: https://github.com/flaccid/chef_ruby
