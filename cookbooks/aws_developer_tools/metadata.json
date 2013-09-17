@@ -28,7 +28,7 @@
       "description": "Whether to automatically install Java with Amazon API Tools.",
       "required": "optional",
       "recipes": [
-        "aws_developer_tools:api"
+        "aws_developer_tools::api"
       ],
       "choice": [
         "true",
@@ -43,7 +43,7 @@
       "description": "Whether to automatically install Java with Amazon AMI Tools.",
       "required": "optional",
       "recipes": [
-        "aws_developer_tools:ami"
+        "aws_developer_tools::ami"
       ],
       "choice": [
         "true",
@@ -58,7 +58,7 @@
       "description": "Whether to automatically install the AWS keys.",
       "required": "optional",
       "recipes": [
-        "aws_developer_tools:api"
+        "aws_developer_tools::api"
       ],
       "choice": [
         "true",
