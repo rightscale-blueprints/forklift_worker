@@ -24,7 +24,7 @@ GIT
 GIT
   remote: https://github.com/flaccid/aws_developer_tools
   ref: master
-  sha: 87e779c9b5e1b126a8a1bec69b1e0fd5046d7dd2
+  sha: cc37f711051eb0bac0626db5e084d344d2cff955
   specs:
     aws_developer_tools (3.1.2)
       chef_ruby (>= 2.2.0)
