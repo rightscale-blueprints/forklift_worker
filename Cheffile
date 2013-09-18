@@ -3,6 +3,8 @@
 
 site 'http://community.opscode.com/api/v1'
 
+cookbook 'ruby'
+
 cookbook 'awscli',
   :git => 'https://github.com/ebensing/chef-awscli',
   :ref => 'master'

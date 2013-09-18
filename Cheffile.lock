@@ -9,6 +9,7 @@ SITE
     python (1.4.0)
       build-essential (>= 0.0.0)
       yum (>= 0.0.0)
+    ruby (0.9.2)
     windows (1.10.0)
       chef_handler (>= 0.0.0)
     yum (2.3.2)
@@ -60,5 +61,6 @@ DEPENDENCIES
   aws_developer_tools (>= 0)
   awscli (>= 0)
   chef_ruby (>= 0)
+  ruby (>= 0)
   system (>= 0)
 
