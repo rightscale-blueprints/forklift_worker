@@ -1,3 +1,11 @@
 {
-  "run_list": [ "system", "awscli", "aws_developer_tools::api", "aws_developer_tools::ami" ]
+  "aws_developer_tools": {
+    "install_ruby?":false
+  },
+  "languages": {
+    "ruby": {
+      "default_version":"1.9.1"
+    }
+  },
+  "run_list": [ "system", "ruby", "awscli", "aws_developer_tools::api", "aws_developer_tools::ami" ]
 }
